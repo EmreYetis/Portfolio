@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: oswald, sans-serif;
+}
+.navbar {
+  background-color: #db5783;
+  color: #fff;
+}
+.main-img {
+  width: 100%;
+  max-height: 200px;
+}
+.kenar {
+  border-bottom: 2px solid #fff;
+}
+.baslik {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 15px;
+  margin-bottom: 0;
+}
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.navbar-brand img {
+  width: 15%;
+}
+.navbar-brand h1 {
+  font-size: 1.5rem;
+  color: #fff;
+}
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 75px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.welcome {
+  background-color: #fff;
+  color: #000000;
+  text-align: center;
+  width: 100%;
+  padding: 20rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.welcome .block {
+  text-align: center;
+}
+.welcome h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+.welcome p {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #db5783;
+}
+.marj {
+  margin: 5%;
+}
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+#hakkimda {
+  background-color: #db5783;
+  padding: 5%;
+  color: #fff;
+}
+/* @media only screen and (max-width: 640px) {
+  #hakkimda .row {
+    display: flex;
+    justify-content: center;
+  }
+} */
+
+h2,
+h3 {
+  text-align: center;
+}
+.foto {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.foto img {
+  width: 25%;
+  border-radius: 50%;
+}
+#sertifikalar {
+  background-color: #fff;
+  color: #080808;
+  padding: 2%;
+  margin: 2%;
+}
+
+#sertifikalar img {
+  width: 100%;
+}
+.zoom {
+  transition: transform 0.2s; /* animasyon süresi */
+  margin: 0 auto; /* resmin ortalanması */
+}
+
+.zoom:hover {
+  transform: scale(1.3); /* zoom efekti */
+}
+
+#projeler {
+  background-color: #db5783;
+  padding: 5%;
+  color: #fff;
+}
+#iletisim {
+  background-color: #db5783;
+  color: #fff;
+  padding: 3%;
+}
+a {
+  color: #fff;
+}
+a:hover {
+  color: #423a3a;
+}
+#iletisim {
+  padding-bottom: 10px;
+  padding-top: 50px;
+  font-weight: bold;
+}
+#iletisim ul {
+  margin-top: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#iletisim li {
+  list-style: none;
+  font-weight: bold;
+  padding: 0 1.5rem;
+}
+#copyright {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: normal;
+}
