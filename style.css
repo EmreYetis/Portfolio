@@ -30,7 +30,7 @@ h6 {
 }
 
 .navbar {
-  background-color: #db5783;
+  background-color: #5356ff;
   color: #fff;
 }
 
@@ -50,6 +50,13 @@ h6 {
   padding-left: 15px;
   margin-bottom: 0;
   color: #fff;
+}
+.navbar-toggler {
+  border-color: white;
+  color: white;
+}
+.navbar-toggler-icon {
+  filter: brightness(0) invert(1); /* Üç çizgiyi beyaz yapmak için */
 }
 
 .navbar-brand {
@@ -108,7 +115,7 @@ h6 {
 .welcome p {
   font-size: 1.5rem;
   font-style: italic;
-  color: #db5783;
+  color: #5356ff;
 }
 
 .marj {
@@ -121,7 +128,7 @@ body {
 }
 
 #hakkimda {
-  background-color: #db5783;
+  background-color: #5356ff;
   padding: 5%;
   color: #fff;
 }
@@ -153,6 +160,9 @@ h3 {
 #sertifikalar img {
   width: 100%;
 }
+#sertifikalar .border-bottom {
+  border-color: #378ce7 !important;
+}
 
 .zoom {
   transition: transform 0.2s;
@@ -164,13 +174,16 @@ h3 {
 }
 
 #projeler {
-  background-color: #db5783;
   padding: 5%;
-  color: #fff;
+  background-color: #378ce7;
+  color: #080808;
+}
+#projeler .border-bottom {
+  border-color: #fff !important;
 }
 
 #iletisim {
-  background-color: #db5783;
+  background-color: #5356ff;
   color: #fff;
   padding: 3%;
 }
@@ -210,7 +223,4 @@ a:hover {
   justify-content: center;
   align-items: center;
   font-weight: normal;
-}
-.first {
-  background-color: #db5783;
 }
